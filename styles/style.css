@@ -209,6 +209,8 @@ li {
   color: hsl(228, 45%, 44%);
 }
 
+/* Media query for desktops*/
+
 @media screen and (min-width: 992px) {
   body {
     display: flex;
@@ -217,10 +219,10 @@ li {
   }
 
   .card {
-    padding: 4.5rem;
+    padding: 5rem 9.5rem;
     display: grid;
-    gap: 4rem;
-    max-width: 1300px;
+    gap: 1.25rem;
+    /* max-width: 81.25rem; */
   }
 
   .text {
@@ -245,8 +247,13 @@ li {
     font-size: 1.1875rem;
   }
 
+  ul {
+    transform: translateY(2rem);
+  }
+
   li {
     flex-direction: row;
+    padding: 1.25rem 3rem;
   }
 
   li#list_1 {
@@ -259,17 +266,20 @@ li {
 
   .review-bloc {
     grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2.375rem;
   }
 
   .review {
-    padding: 3rem 2rem;
+    padding: 2.5rem 2rem 1.675rem 2rem;
+    gap: 1.3125rem;
   }
 
   div#irene {
-    transform: translateY(10%);
+    transform: translateY(1rem);
   }
 
   div#anne {
-    transform: translateY(20%);
+    transform: translateY(2rem);
   }
 }
