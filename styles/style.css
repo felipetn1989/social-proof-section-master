@@ -222,7 +222,7 @@ li {
     padding: 5rem 9.5rem;
     display: grid;
     gap: 1.25rem;
-    /* max-width: 81.25rem; */
+    max-width: 88.5rem;
   }
 
   .text {
